@@ -1,14 +1,10 @@
-# Autograding Example: Python
-This example project is written in Python, and tested with pytest.
+# 課題
 
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+## 内容
+@@@
 
-### Setup command
-`sudo -H pip3 install pytest`
+## 実行環境の作り方
+`pip3 install pytest`
 
-### Run command
-`pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
+## 実行コマンド
+`pytest test.py`
