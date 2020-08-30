@@ -4,7 +4,7 @@
 @@@
 
 ## 実行環境の作り方
-`pip3 install pytest`
+`pip3 install -r requirements.txt`
 
 ## 実行コマンド
-`pytest test.py`
+`python test_main.py`
