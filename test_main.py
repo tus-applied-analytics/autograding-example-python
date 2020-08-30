@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 from main import main
+import unittest
 
-def test_main():
-    assert main() == "Hello world!"
+class TestCase(unittest.TestCase):
+    def test_main(self):
+        self.assertEqual(main(), "Hello world!")
+
+if __name__ == "__main__":
+    unittest.main()
